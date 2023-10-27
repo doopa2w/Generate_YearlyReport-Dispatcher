@@ -1,10 +1,12 @@
 {
-  "name": "Generate-Yearly-Report",
+  "name": "Generate-Yearly-Report-Dispatcher",
   "projectId": "e87f80e7-e402-42c9-8b4f-8d4d1eb121cb",
   "description": "To automate the process of downloading all the monthly reports for a specific vendor and generate a yearly report within ACME Systems Inc.'s Finance and Accounting department.",
   "main": "Main.xaml",
   "dependencies": {
+    "ACMESystem1.Descriptors": "[1.0.1]",
     "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.Mail.Activities": "[1.21.1]",
     "UiPath.System.Activities": "[23.10.1]",
     "UiPath.Testing.Activities": "[23.10.0]",
     "UiPath.UIAutomation.Activities": "[23.10.1]"
@@ -13,7 +15,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.0.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
